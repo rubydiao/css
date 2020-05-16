@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(250, 198, 206);
+}
+#test0{
+    background-color: yellow;
+}
+p{
+    background-color: tomato;
+}
+#test1{
+    background-color: blue;
+    opacity: 0.5;
+}
+#test2{
+    background-color: green;
+    opacity: 0.7;
+}
+#test3{
+    background-color: red;
+    opacity: 0.3;
+}
