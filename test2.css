@@ -1,0 +1,11 @@
+h1{
+    border: 5px solid violet;
+    color: white;
+    background-color: indigo;
+}
+h2{
+    border: 10px solid palevioletred;
+}
+h3{
+    border: 2px solid rgb(255, 72, 0) ;
+}
