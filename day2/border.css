@@ -1,0 +1,67 @@
+div{
+    text-align: center;
+}
+.one{
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+}
+.two{
+    border-style: solid;
+    border-width: medium;
+    border-color: palevioletred;
+}
+.three{
+    border-style: dotted;
+    border-width: 10px;
+    border-color: olive;
+}
+.four{
+    border-style: dotted;
+    border-color: aqua;
+    border-width: thick;
+}
+.five{
+    border-style: solid;
+    border-color: pink violet purple indigo ;
+    border-width: 10px;
+}
+.six{
+    border-top-color: pink;
+    border-top-style: dashed;
+    border-bottom-color: pink;
+    border-bottom-style: dashed;
+    border-left-color: indigo;
+    border-left-style: solid;
+    border-right-color: indigo;
+    border-right-style: solid;
+    border-width: 6px;
+}
+.seven{
+    border-style: solid dotted;
+    border-width: 5px;
+}
+.eight{
+    border-style: dotted solid double;
+    border-color: brown;
+}
+.nine{
+    border: 5px dashed red;
+}
+.ten{
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+    background-color: rgb(129, 241, 241);
+}
+.eleven{
+    background-color: rgb(129, 241, 241);
+    border-bottom:10px dotted green;
+}
+.twelve{
+    background-color: rgb(187, 134, 236);
+    border: 10px solid indigo;
+    border-radius: 50px;
+}
+.thir{
+    border-radius: 50px;
+}
