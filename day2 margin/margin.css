@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: lightblue;
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    color: white;
+    margin: 10px 150px 100px 150px;
+    background-color: rgb(192, 139, 241);
+    border-radius: 5px ;
+    border: 6px dashed rgb(209, 139, 10);
+}
+h1.ex{
+    background-color: rgb(250, 250, 162);
+    margin-left: initial ;
+    margin-right: initial;
+}
