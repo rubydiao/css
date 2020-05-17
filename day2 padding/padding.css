@@ -1,0 +1,29 @@
+.pad{
+    background-color: chocolate;
+    text-align: center;
+    color: white;
+    padding: 50px 150px 50px 150px;
+    margin-bottom: 50px;
+}
+.ex{
+    background-color: rgb(187, 241, 241);
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.ex2{
+    background-color: rgb(148, 146, 146);
+    padding: 25px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.ex3{
+    text-align: center;
+    margin: 0px 500px 0px 500px;
+    background-color: rgb(180, 95, 95);
+    padding: 25px;
+    width: 300px;
+    box-sizing: border-box;
+}
