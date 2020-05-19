@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(248, 206, 213);
+}
+
+h1 {
+  float: left;
+  text-align: center;
+  background-color: aqua;
+  padding: 10px;
+  width: 100px;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+#a {
+  color: black;
+  list-style-type: circle;
+}
+
+#b {
+  color: black;
+  list-style-type: disc;
+}
+
+#c {
+  color: black;
+  list-style-type: lower-roman;
+}
+
+#d {
+  color: black;
+  list-style-type: lower-alpha;
+}
+
+#e {
+  color: black;
+  list-style-type: upper-alpha;
+}
+
+#demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#test {
+  background: #ff9999;
+  padding: 20px;
+}
+
+#test li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+  margin: 2px;
+}
+
+#test2 {
+  background: #3399ff;
+  padding: 20px;
+}
+
+#test2 li {
+  background: white;
+  margin: 5px;
+}
