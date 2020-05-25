@@ -1,0 +1,24 @@
+table , th ,td{
+    border: 1px solid black;
+    text-align: left;
+    margin-bottom: 50px;
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    /* Full Fill Border Table */
+    width: 100%;
+}
+th,td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+tr:nth-child(even){
+    background-color: azure;
+}
+tr:nth-child(odd){
+    background-color: coral;
+}
