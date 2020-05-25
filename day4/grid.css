@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid: 50px / auto auto auto ;
+    grid-gap: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+.grid > div {
+    background-color: rgb(214, 158, 55);
+    text-align: center;
+    padding: 15px 0;
+}

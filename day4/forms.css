@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(247, 214, 247);
+}
+
+h1 {
+    background-color:rgb(176, 119, 230) ;
+    width: 50%;
+    margin: 10px 400px 2px 400px;
+    border: 2px solid white;
+    border-style: dashed;
+    color: white;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+input[type=text],
+select,
+label, input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 30px 400px 0px 400px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* input[type=text]:focus{
+    width: 100%;
+} */
+/* use for active*/
+input[type=submit] {
+    background-color: rgb(176, 119, 230);
+    border: none;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    margin: 80px 400px 150px 400px;
+    width: 50%;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(121, 63, 175);
+    color: white;
+}
+.footer {
+    position:absolute;
+    padding-right: 52px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(121, 63, 175);
+    color: white;
+    text-align: right;
+}
+p{
+    margin-right: 10px;
+}
