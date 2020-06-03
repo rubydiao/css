@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(253, 192, 255);
+}
+.gall{
+    margin-top: 100px;
+    margin-left: 11px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 50px;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+.gall img{
+    border-radius: 50%;
+}
+.desc{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: white;
+}
+.gall:hover{
+    border: 5px solid black;
+    transform: scale(1.2);
+}

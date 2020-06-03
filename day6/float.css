@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(118, 120, 250);
+}
+#button1{
+    float: right;
+    margin-top: 50px;
+    color: white;
+    background-color: #4CAF50;
+}
+#button2{
+    float: left;
+    margin-top: 50px;
+    color: white;
+    background-color: red;
+}
