@@ -1,0 +1,59 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+body {
+  background-color: #aedaf7;
+}
+div {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 60%;
+}
+#st {
+  display: inline;
+  background-color: #0e2770;
+  width: 40%;
+  color: white;
+}
+#nd {
+  background-color: white;
+  width: 60%;
+}
+#st1 > img {
+  border-radius: 50%;
+  display: inline;
+  border: 12px solid #aedaf7;
+  margin: 0 auto;
+}
+#st2 {
+  display: inline;
+}
+#st2 > h1 {
+  text-align: center;
+}
+#st2 > div {
+  background-color: #f8801f;
+  font-size: 30px;
+  width: 100%;
+  padding: 3px 0;
+}
+#st2 > div > i {
+  margin: 0 auto;
+}
+#contact {
+  margin: 0 auto;
+  display: inline;
+}
+#contact > h1::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f2b9";
+  margin-right: 10px;
+}
+#contact > div > p::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f2b6";
+  float: left;
+  margin-right: 60px;
+}

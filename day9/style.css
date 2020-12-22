@@ -1,0 +1,49 @@
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding-top: 30px;
+}
+header>p{
+    text-align: center;
+}
+nav{
+    background-color: blueviolet;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+nav>ul>a{
+    color: white;
+}
+section{
+    left: 0;
+    display: flex;
+    height:600px;
+    width: 100%;
+}
+aside{
+    bottom: 0;
+    width: 20%;
+    background-color: gold;
+}
+aside>div{
+    margin: 20px 15px;
+}
+article{
+    background-color: cornflowerblue;
+    width: 100%;
+}
+article>div{
+    margin-left: 10px;
+}
+footer{
+    left: 0;
+    bottom: 0;
+    overflow: hidden;;
+    width: 100%;
+    background-color: brown;
+}

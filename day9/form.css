@@ -1,0 +1,150 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    height: auto;
+}
+header{
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+}
+header>div{
+    margin-top: 20px;
+    margin-left: 60%;
+}
+span{
+    color: #4CAF50;
+}
+a{
+    margin-left: 80px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+nav{
+    background-color: rgb(59, 58, 58);
+    width: 100%;
+    overflow: hidden;
+
+}
+nav>ul{
+    display: flex
+}
+nav>ul>li{
+    margin: 0 2px;
+    color: white;
+    list-style-type: none;
+    width: 100%;
+    padding: 15px 0;
+}
+section{
+    display: flex;
+}
+#d3{
+    padding-top: 90px;
+    width: 70%;
+    border: 1px solid rgb(233, 231, 231);
+}
+#d1{
+    border: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    width: 15%;
+    height: 2000px;
+    background-color: rgba(238, 238, 238, 0.678);
+    overflow: scroll;
+}
+#d1>div>ul>li{
+    list-style-type: none;
+    margin: 5px 0;
+}
+#dd1{
+    background-color: #4CAF50;
+    color: white;
+
+}
+#d1>div>ul>li:hover{
+   background-color: rgb(151, 153, 151);
+}
+#d33>h1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+table,th,td{
+    border: transparent;
+    border-collapse: collapse;
+}
+td{
+    font-size: 15px;
+    padding: 0 50px;
+    background-color: rgba(197, 194, 194, 0.76);
+}
+tr{
+    text-align: center;
+}
+th{
+    color: white;
+    background-color: rgb(61, 61, 61);
+}
+#t2{
+    width: 100%;
+}
+#t2>tr:hover{
+    background-color:red;
+}
+#content>h1{
+    font-size: 40px;
+}
+.grid{
+    background-color: rgba(235, 235, 235, 0.849);
+    color: rgb(82, 82, 82); 
+    margin: 10px 50px; 
+    width: 100%; 
+    height: 30px;
+    padding: 20px 80px;
+    text-align: center;
+}
+.grid:hover{
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+#foot1{
+    display: flex;
+}
+#foot1>.sub1{
+    margin: 10px 60px;
+    background-color:  rgba(235, 235, 235, 0.849);
+    padding: 0 50px;
+}
+#foot1>.sub1:hover{
+    background-color: rgb(160, 158, 158);
+}
+#foot1>.sub1>p{
+    font-size: 12px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0.25px solid rgb(238, 235, 235);
+}
+#foot2{
+    display: flex;
+}
+#foot2>.tuto{
+    width: 100%;
+    text-align: center;
+}
+#cert{
+    color: white; background-color:  rgb(59, 58, 58); width: 50%; margin-left: auto; margin-right: auto;
+}
+#cert:hover{
+    color: #000;
+    background-color: rgb(160, 158, 158);
+}
+#foot4{
+    color:  rgb(160, 158, 158);
+    font-size: 12px;
+    text-align: center;
+}
