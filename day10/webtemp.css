@@ -1,0 +1,98 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #051e6f;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-top: -30px;
+    right: 0;
+    left: 0;
+}
+
+header>div {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-color:#333;
+}
+
+nav a { 
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+
+}
+
+nav #link {
+    float: right;
+}
+
+article {
+    display: flex;
+}
+
+article #part1 {
+    background-color: #e9f3f3;
+    width: 30%;
+    position: static;
+}
+
+#part1 .content {
+    margin-left: 10%;
+}
+
+#part1 .content #image {
+    background-color: gray;
+    width: 95%;
+    height: 200px;
+}
+
+#part1 .content #image2 {
+    background-color: gray;
+    width: 95%;
+    height: 50px;
+    margin-top: 15px;
+}
+
+article #part2 {
+    background-color: #c2f3f3;
+    width: 70%;
+    position: relative;
+}
+
+#part2 .content {
+    margin-left: 2%;
+}
+
+#part2 .content #image {
+    background-color: gray;
+    width: 95%;
+    height: 200px;
+}
+
+footer {
+    background-color: #051e6f;
+    width: 100%;
+    bottom: 0px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+}
+a:hover{
+    background-color: gray;
+    color: black;
+}
